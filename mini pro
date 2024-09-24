@@ -1,0 +1,26 @@
+student-performance-tracker/
+│
+├── backend/
+│   ├── server.js              # Node.js/Express Backend
+│   ├── routes/
+│   │   └── student.js         # Student routes
+│   │   └── teacher.js         # Teacher routes
+│   ├── models/
+│   │   └── Student.js         # Student Model
+│   │   └── Teacher.js         # Teacher Model
+│   └── flask/
+│       └── prediction.py      # Python Flask for Predictive Analytics
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.js             # Main React App
+│   │   ├── components/
+│   │   │   └── Dashboard.js   # Student/Teacher Dashboard
+│   │   ├── services/
+│   │   │   └── api.js         # Axios requests to backend
+│   └── public/
+│
+├── db/
+│   └── mongo-init.js          # MongoDB Initialization script
+│
+└── README.md
